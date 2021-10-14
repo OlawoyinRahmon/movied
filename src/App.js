@@ -12,7 +12,7 @@ const App = () => {
 export default App*/
 
 
-import React from 'react'
+/*import React from 'react'
 import MovieFile from './Project/MovieFile'
  import MovieDetail from "./Project/MovieDetail"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
@@ -21,6 +21,18 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
     <div>
       <MovieFile />
       <MovieDetail />
+    </div>
+  )
+}
+
+export default App*/
+
+import React from 'react'
+import Trelloo from './Trelloo'
+const App = () => {
+  return (
+    <div>
+      <Trelloo />
     </div>
   )
 }
